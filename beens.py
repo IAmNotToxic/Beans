@@ -47,7 +47,6 @@ if 'Beens' or 'Beans' in X:
        print(Fore.RED+"    Made                 By               @pwn.doxgod")
        time.sleep(1.0)
        os.system(' clear ')  
-	 time.sleep(0.1)
 	  print(" .............................")
 	  time.sleep(0.1)
 	  print(Fore.MAGENTA+" A HTTP DDOS:    ")
