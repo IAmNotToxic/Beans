@@ -16,7 +16,8 @@ print ("                                                             \______/   
 print (" [01]> track-ip		")
 print (" [02]> ip-tracer 	")
 print (" [03]> Sigit 		")
-print (" [00]> Exit		")
+print (" [04]> Install      ")
+print (" [00]> Exit		    ")
 rebirthed = input(" Tracking-Skiddos ==>> ")
 if rebirthed == '01' or rebirthed == '1':
 	os.system(' clear ')
@@ -27,11 +28,15 @@ elif rebirthed == '02' or rebirthed == '2':
 	os.system(' cd IP-Tracer && chmod +x * && ./install ')
 	
 elif rebirthed == '00' or rebirthed == '0':
-	os.system(' python2 alqueda.py ')
+	os.system(' python3 beens.py ')
 elif rebirthed == '03' or rebirthed == '3':
 	os.system(' clear ')
 	os.system(' cd SIGIT && bash install.sh && python3 sigit.py ')
-	
+
+elif rebirthed == '04' or rebirthed == '4':
+    os.system(' clear ')
+    os.system(' git clone https://github.com/termuxhackers-id/SIGIT && git clone https://github.com/htr-tech/track-ip && git clone https://github.com/rajkumardusad/IP-Tracer ')    
+
 else:
       print (" \nERROR: Wrong Input ")
       restart_program()
